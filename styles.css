@@ -115,13 +115,27 @@ h2 {
     display: flex;
     direction: row;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: flex-end;
+    padding-top: 3em;
+    margin: 5em;
+}
+
+.icon-flex {
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    width: 20%;
 }
 
 i {
-    color: white;
+    color: #eee0c9;
+    transition: 0.5s;
 }
 
 i:hover {
     color: #AD5858;
+}
+
+.copyright {
+    font-size: 12px;
 }

@@ -1,0 +1,127 @@
+.background {
+    background-image: url(assets/sean-stratton-KzYeP16sQ6Q-unsplash.jpg);
+    height: 45.5em;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    font-family: 'Open Sans', san-serif;
+}
+
+.nav-wrapper {
+display:flex; 
+justify-content: space-between;
+align-items: center;
+padding: 2em;
+}
+
+.nav-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight:200;
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+.nav-first-name {
+    color: #578671;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.nav-last-name {
+    font-weight: bold;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.link-wrapper a {
+    transition: 0.5s;  
+}
+
+.link-wrapper a:hover {
+    /* color: #FC9987; */
+    /* color: #964C02; */
+    color: #AD5858;
+}
+
+.flex-item {
+    text-decoration: none;
+    color: #578671;
+    padding-right: 3em;
+    padding-left: 2em;
+    padding-bottom: 15px;
+}
+
+.flex-main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-family: 'Raleway';
+    font-weight: 200;
+    padding-top: 2em;
+}
+
+/* .dot {
+    height: 500px;
+    width: 500px;
+    background-color: #bc4c38;
+    border-radius: 50%;
+} */
+
+.profile-image {
+    height: 400px;
+    border-radius: 50%;
+    border: 10px solid #578671;
+    /* eee0c9 This is an off white that matches*/
+}
+
+.main-text {
+    width: 50%;
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.learn-more a {
+    transition: 0.5s;
+}
+.learn-more a:hover {
+    color: #AD5858;
+}
+
+.footer-flex {
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+i {
+    color: white;
+}
+
+i:hover {
+    color: #AD5858;
+}

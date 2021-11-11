@@ -108,13 +108,13 @@ h2 {
     font-size: 3em;
 }
 
-.learn-more {
+.learn-more a {
     transition: 0.3s;
     color: #eee0c9;
     text-decoration: none;
 }
 
-.learn-more:hover {
+.learn-more a:hover {
     color: #AD5858;
 }
 

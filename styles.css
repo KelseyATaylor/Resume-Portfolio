@@ -84,7 +84,7 @@ padding: 2em;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 200;
     padding-top: 2em;
 }
@@ -118,20 +118,35 @@ h2 {
     color: #AD5858;
 }
 
+.construction {
+color: #F4AF33;
+font-family: 'Open Sans', sans-serif;
+display: block;
+text-align: center;
+margin: 3px;
+}
+
 .construction-pic {
     display: block;
     margin-left:auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
+}
+
+h4 {
+    text-align: center;
+    color: #F4AF33;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    margin: 10px;
 }
 
 .footer-flex {
     display: flex;
-    direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    padding-top: 3em;
-    margin: 5em;
+    margin-top: 8em;
+    
 }
 
 .icon-flex {
@@ -152,4 +167,21 @@ i:hover {
 
 .copyright {
     font-size: 12px;
+}
+
+.link-text {
+    display: block;
+    background-color: #AD5858;
+    border-radius: 50%;
+    border: 1px;
+    padding: 10px;
+}
+
+.icon-circle {
+    color: #578671;
+    border-radius: 50%;
+    border: 1px;
+    background-color: white;
+    padding: 30px;
+
 }

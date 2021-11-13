@@ -124,13 +124,14 @@ font-family: 'Open Sans', sans-serif;
 display: block;
 text-align: center;
 margin: 3px;
+font-size: 60px;
 }
 
 .construction-pic {
     display: block;
     margin-left:auto;
     margin-right: auto;
-    width: 40%;
+    width: 30%;
 }
 
 h4 {
@@ -145,7 +146,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: 8em;
+    margin-top: 6em;
     
 }
 
@@ -157,7 +158,7 @@ h4 {
 }
 
 i {
-    color: #eee0c9;
+    color: white;
     transition: 0.3s;
 }
 
@@ -169,19 +170,60 @@ i:hover {
     font-size: 12px;
 }
 
-.link-text {
-    display: block;
-    background-color: #AD5858;
-    border-radius: 50%;
-    border: 1px;
-    padding: 10px;
+.title-connect {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    font-size: 50px;
+}
+
+.link-connect {
+    text-decoration: none;
 }
 
 .icon-circle {
-    color: #578671;
     border-radius: 50%;
     border: 1px;
-    background-color: white;
+    background-color: #AD5858;
     padding: 30px;
+    transition: 0.3s;
+}
 
+.icon-circle:hover {
+    background-color: #578671;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-icon-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    /* align-items: center; */
+}
+
+.subtitle-connect {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.subtitle-connect:hover {
+    box-shadow: 0 1px 0 white;
+}
+
+.text-connect-title {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.text-connect-subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
 }
